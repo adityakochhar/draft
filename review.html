@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav type="none"> 
+        <ul id="ok" type="none">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="sign.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <form>
+        <table cellpadding="20px">
+        <tr>
+            <td><label for="firstname">First Name:</label>
+            <input type="text" id="firstname" required>
+            </td>
+        </tr>
+        <tr>
+        <td><label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Id: &nbsp; &nbsp;</label>
+            <input type="email" id="email" required></td>
+
+        </tr>
+        <tr>
+            <td><label>Genre &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</label>
+            <select id="genre" name="genre" required>
+                <option value="fiction">Fiction</option>
+                <option value="non-fictional">Non-Fictional</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="religious">Religious</option>
+                <option value="Sci-fiction">Sci-Fiction</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fileinput">Choose a File.</label>
+                <input type="file" accept=".png,.jpg,.jpeg">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="review">Write Your Review</label><br>
+            <textarea rows="" cols="" placeholder="Write here.." required></textarea>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">SUBMIT</button>
+                <button type="reset">RESET</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+</html>
